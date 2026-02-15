@@ -14,9 +14,6 @@ const App = () => {
           <li>
             <Link to="profile/spinach">Spinach's Profile</Link>
           </li>
-          <li>
-            <Link to="profile/default">Default Profile</Link>
-          </li>
         </ul>
       </nav>
     </div>

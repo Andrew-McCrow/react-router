@@ -17,10 +17,7 @@ const Profile = () => {
       ) : name === "spinach" ? (
         <Spinach />
       ) : (
-        <>
-          <DefaultProfile />
-          {console.log("name is", name)}
-        </>
+        <DefaultProfile />
       )}
     </div>
   );
